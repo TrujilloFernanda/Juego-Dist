@@ -8,17 +8,17 @@ var gameInterval, updateInterval
 
 function pirateName() {
   var names = [
-    'Blackbeard',
-    'Jimmy',
-    'Roger',
-    'Carlos',
-    'Juanita',
-    'Sophie',
-    'Boris',
-    'Jenny',
-    'Doris',
-    'Philippe',
-    'Jack'
+    'Nutria',
+    'Castor',
+    'Comadreja',
+    'Gato',
+    'Hormiga',
+    'Perro',
+    'Oso',
+    'Lemur',
+    'Serpiente',
+    'Mapache',
+    'Pez'
   ]
   return names[Math.floor(Math.random()*names.length)]
 }

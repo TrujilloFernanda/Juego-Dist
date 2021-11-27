@@ -54,10 +54,10 @@
 
       // set score info
       var playerCount = Object.keys(players).length
-      document.getElementById('playerCount').innerHTML = String(playerCount) + " pirate" + (playerCount > 1 ? 's' : '') + " on the salty seas"
+      document.getElementById('playerCount').innerHTML = String(playerCount) + " pirata" + (playerCount > 1 ? 's' : '') + " en el mar"
       var scores = ''
       Object.values(players).sort((a,b) => (b.score - a.score)).forEach((player, index) => {
-        scores += "<p><span style='border-bottom: 1px solid " + player.colour + ";'>" + player.name + "</span> has " + player.score + " doubloons</p>"
+        scores += "<p><span style='border-bottom: 1px solid " + player.colour + ";'>" + player.name + "</span> tiene " + player.score + " reales</p>"
       })
       document.getElementById('scores').innerHTML = scores
 

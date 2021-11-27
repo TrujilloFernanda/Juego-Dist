@@ -3,8 +3,8 @@ var doubloon = {} // the thing everyone's chasing
 
 const gameSize = 2500; // will be downscaled 5x to 500x500 when we draw
 
-const playerSize = 100; // (downscaled to 20x20)
-const doubloonSize = 50
+const playerSize = 150; // (downscaled to 20x20)
+const doubloonSize = 70
 const maxAccel = 10
 
 function checkCollision(obj1, obj2) {
